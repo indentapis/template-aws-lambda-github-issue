@@ -19,13 +19,13 @@ variable "gh_token" {
   sensitive = true
 }
 
-variable "github_org" {
+variable "gh_org" {
   type      = string
   default   = ""
   sensitive = true
 }
 
-variable "github_repo" {
+variable "gh_repo" {
   type      = string
   default   = ""
   sensitive = true
